@@ -1,0 +1,64 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:uxor="http://schemas.android.com/apk/res-auto">
+
+    
+    
+     <item
+        android:id="@+id/action_loadData"
+        android:orderInCategory="100"
+        uxor:showAsAction="never"
+        android:title="@string/action_loadData"/>
+     
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        uxor:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+     <item
+        android:id="@+id/action_regGCM"
+        android:orderInCategory="300"
+        uxor:showAsAction="never"
+        android:title="@string/action_regGCM"/>
+    
+     <item
+        android:id="@+id/action_updateConfigurationData"
+        android:orderInCategory="400"
+        uxor:showAsAction="never"
+        android:title="@string/action_updateConfigurationData"/>
+     
+    <item
+        android:id="@+id/action_help"
+        android:orderInCategory="500"
+        uxor:showAsAction="never"
+        android:title="@string/action_help"/>
+    
+    <item
+        android:id="@+id/alert_no_connection"
+        android:orderInCategory="100"
+        uxor:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_ico_alert"
+        android:title="@string/alert_no_connection"/>
+    
+     <item
+        android:id="@+id/action_add"
+        android:orderInCategory="100"
+        uxor:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_ico_add"
+        android:title="@string/action_add"/>
+     
+      <item
+        android:id="@+id/action_accept"
+        android:orderInCategory="100"
+        uxor:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_action_accept"
+        android:title="@string/action_accept"/>
+      
+      <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="100"
+        uxor:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/action_refresh"/>
+
+</menu>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <TextView
+        android:id="@+id/txtBranchesByTownFgt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A8CCE2"
+        android:text="@string/branches_by_town"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" 
+        android:padding="10dp"/>
+    
+    <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="1dp"
+    	android:background="@android:color/darker_gray"/>
+    
+     <ListView
+         android:id="@+id/lstBranchesByTownFgt2"
+         android:layout_width="match_parent"
+         android:layout_height="195dp">
+     </ListView>
+      
+        
+     <TextView
+        android:id="@+id/txtBranchesByCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/branches_by_country" 
+        android:textSize="20sp"
+        android:background="#A8CCE2"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"/>
+     
+     <View
+    	android:layout_width="fill_parent"
+    	android:layout_height="1dp"
+    	android:background="@android:color/darker_gray"/>
+    
+     <ListView android:id="@+id/lstBranchesByCountryFgt2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+ 
+</LinearLayout>

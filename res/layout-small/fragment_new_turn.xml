@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/rlNewTurn"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:layout_marginTop="15sp"
+    android:padding="5dp" >
+
+     	<ImageView
+     	    android:id="@+id/imgLogoNewTurn"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_alignParentTop="true"
+     	    android:layout_centerHorizontal="true"
+     	    android:layout_marginTop="25dp"
+      	    android:layout_marginBottom="20dp"
+     	    android:src="@drawable/about_us_logo" />
+     	
+     	<TextView
+     	    android:id="@+id/txtLblNoActiveTurns"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_centerHorizontal="true"
+     	    android:layout_below="@+id/imgLogoNewTurn"
+     	    android:gravity="center"
+     	    android:text="Ud. no tiene turnos activos"
+     	    android:textSize="25sp" />
+     	
+     	
+     	<TextView
+     	    android:id="@+id/txtLblDescriptionNewTurn"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_below="@+id/txtLblNoActiveTurns"
+       	    android:layout_centerHorizontal="true"
+       	    android:gravity="center"
+     	    android:layout_marginTop="10dp"
+     	    android:layout_marginBottom="25dp"
+     	    android:text="Presione en Nuevo Turno para empezar a usar Libre de Esperas"
+     	    android:textColor="#777777"
+     	    android:textSize="20sp" />
+     	
+	     <TextView
+     	    android:id="@+id/txtLblNoConnection"
+     	    android:layout_width="wrap_content"
+     	    android:layout_height="wrap_content"
+     	    android:layout_centerHorizontal="true"
+     	    android:layout_above="@+id/btnAcceptNewTurn"
+     	    android:gravity="center"
+     	    android:layout_marginBottom="5dp"
+     	    android:text="No hay conexión"
+     	    android:visibility="invisible"
+     	    android:textColor="#FF4444"
+     	    android:textSize="15sp" />
+
+     	
+
+     	<TextView
+     	    android:id="@+id/btnAcceptNewTurn"
+     	    android:layout_width="280dp"
+     	    android:layout_height="50dp"
+     	    android:layout_below="@+id/txtLblDescriptionNewTurn"
+     	    android:layout_alignParentBottom="true"
+     	    android:layout_centerHorizontal="true"
+     	    android:background="#7FBA00"
+     	    android:gravity="center"
+     	    android:text="Nuevo Turno!"
+     	    android:textAlignment="center"
+     	    android:textColor="#FFFFFF"
+     	    android:textSize="22sp" />
+     
+ </RelativeLayout>

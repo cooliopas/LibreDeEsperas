@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:padding="15dp"
+  android:id="@+id/rlItemBranch">
+ 
+    <ImageView
+      android:id="@+id/imageBkgCompanyLogoLytItemBrach"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="Company Logo"
+      android:src="@drawable/bkg_company_logo" 
+      android:paddingRight="15dp"/>
+    
+	<TextView android:id="@+id/txtBranchDescLytItemBrach"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Banco Provincia"
+	    android:layout_toRightOf="@+id/imageBkgCompanyLogoLytItemBrach"
+	    android:textStyle="bold"
+	    android:textSize="25dp" />
+	 
+	<TextView android:id="@+id/txtBranchAddressLytItemBrach"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/imageBkgCompanyLogoLytItemBrach"
+	    android:layout_below="@+id/txtBranchDescLytItemBrach"
+	    android:text="Suc. Córdoba 1233"
+	    android:textStyle="normal"
+	    android:textColor="#888888"
+	    android:textSize="15dp" />
+	
+	<ImageView
+      android:id="@+id/imageBtnCallLytItemBrach"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="Company Logo"
+      android:src="@drawable/btn_little_call" 
+      android:layout_alignParentRight="true"/>
+ 
+</RelativeLayout>

@@ -1,0 +1,115 @@
+#Circulo Azul - Mayor o igual a 10
+turnBefore.circle.blue = 10
+
+#Circulo Naranja - Mayor o igual a 5
+turnBefore.circle.orange = 5
+
+#WebService Registrar Usuario
+gcmRegistration.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+gcmRegistration.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#gcmRegistration.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+gcmRegistration.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+gcmRegistration.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Registrar Turno
+turnRegistration.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+turnRegistration.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#turnRegistration.webservice.url =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+turnRegistration.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+turnRegistration.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Eliminar Turno
+turnDelete.webservice.namespace =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+turnDelete.webservice.url =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#turnDelete.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+turnDelete.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+turnDelete.webservice.soapAction =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Obtener Congestion
+getCongestion.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+getCongestion.webservice.url =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#getCongestion.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+getCongestion.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+getCongestion.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Actualizar registro gcm vencido
+gcmUpdateRegistration.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+gcmUpdateRegistration.webservice.url =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#gcmUpdateRegistration.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+gcmUpdateRegistration.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+gcmUpdateRegistration.webservice.soapAction =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Actualizacion de Tunos
+updateTurnsNotifications.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateTurnsNotifications.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateTurnsNotifications.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateTurnsNotifications.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateTurnsNotifications.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+#WebService Noticias de los Servicios
+updateServerNotifications.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateServerNotifications.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateServerNotifications.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateServerNotifications.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateServerNotifications.webservice.soapAction =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+#WebService Actualización de Países
+updateCountries.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateCountries.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateCountries.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateCountries.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateCountries.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Actualización de Provincias
+updateStates.webservice.namespace =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateStates.webservice.url =xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateStates.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateStates.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateStates.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Actualización de Ciudades
+updateTowns.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateTowns.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateTowns.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateTowns.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateTowns.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Actualización de Tipos de Clientes
+updateClientTypes.webservice.namespace = hxxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateClientTypes.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateClientTypes.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateClientTypes.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateClientTypes.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Actualización Clientes
+updateClient.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateClient.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateClient.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateClient.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateClient.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Actualización de Sucursales
+updateBranchs.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateBranchs.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateBranchs.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateBranchs.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateBranchs.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#WebService Actualización de Servicios
+updateServices.webservice.namespace = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateServices.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+#updateServices.webservice.url = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateServices.webservice.methodName = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+updateServices.webservice.soapAction = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+#PARAMETERS 
+application.parameter.phonetype = ADD
+ 
+
+#(asociado al Project ID: libre-de-esperas)
+application.parameter.senderId = xxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+

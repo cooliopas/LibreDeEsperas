@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+		   <RelativeLayout android:id="@+id/rlAddTurn"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" 
+		        android:layout_marginTop="30sp">
+		        
+   		       <ImageView
+		            android:id="@+id/imgLogoAddTurn"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:contentDescription="Banco Río"
+		            android:src="@drawable/logo_claro"
+		            android:layout_marginTop="15dp"
+		            android:layout_marginLeft="30dp"
+		            android:layout_marginRight="10dp"/>
+   		       
+   		       <TextView
+		            android:id="@+id/txtClientNameAddTurn"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_toRightOf="@+id/imgLogoAddTurn"
+		            android:text="Banco Nación" 
+		            android:textSize="25sp"
+		            android:textColor="#555555"
+		            android:layout_marginTop="10dp"
+		            android:layout_marginLeft="10dp"/>
+		        
+		        
+		         <TextView
+		            android:id="@+id/txtBranchAddressAddTurn"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		           	android:layout_toRightOf="@+id/imgLogoAddTurn"
+		            android:layout_below="@+id/txtClientNameAddTurn"
+		            android:text="Suc. Córdoba 1233" 
+		            android:textSize="20dp"
+		            android:textColor="#888888"
+		            android:layout_marginLeft="10dp"/>
+        
+		        <TextView
+		            android:id="@+id/txtBranchPhoneNumberAddTurn"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		       		android:layout_toRightOf="@+id/imgLogoAddTurn"
+		            android:layout_below="@+id/txtBranchAddressAddTurn"
+		            android:text="452-6698 (Int. 34)" 
+		            android:textSize="20sp"
+		            android:textColor="#878787"
+		            android:layout_marginLeft="10dp"/>
+		        
+		       <TextView
+		            android:id="@+id/txtCongestionServiceTurn"
+		            android:layout_width="320dp"
+		            android:layout_height="wrap_content"
+		            android:text="Congestión: 2 personas." 
+		            android:textSize="25sp"
+		            android:textColor="#777777"
+		            android:gravity="center"
+		            android:layout_centerHorizontal="true"
+		            android:layout_marginTop="25dp"
+		            android:layout_below="@+id/txtBranchPhoneNumberAddTurn"
+		           />
+
+		        <Spinner android:id="@+id/cmbServicesAddTurn"
+		    		android:layout_width="300dp"
+		    		android:layout_height="50dp"
+		    		android:layout_below="@+id/txtCongestionServiceTurn"
+		    		android:drawableRight="@drawable/ico_down"
+		    		android:background="#DDE8EE"
+		    		android:layout_marginTop="30dp"
+		    		android:layout_marginBottom="10dp"
+		    		android:layout_centerHorizontal="true"
+		    		android:gravity="center"
+		    		android:prompt="@string/hintCboService"/>
+		        
+		        <EditText
+		        	android:id="@+id/txtCalendarAddTurn"
+		        	android:layout_width="300dp"
+		        	android:layout_height="50dp"
+		        	android:layout_below="@+id/cmbServicesAddTurn"
+		        	android:background="#DADADA"
+		        	android:textSize="25sp"
+		        	android:paddingLeft="5dp"
+    				android:paddingRight="5dp"
+    				android:layout_marginBottom="10dp"
+    				android:layout_centerHorizontal="true"
+    				android:drawableRight="@drawable/ico_calendar"
+		        	android:focusable="false"
+		        	android:gravity="center"
+		        	android:textColor="#555555"/>
+		        
+		         <EditText
+		        	android:id="@+id/txtTurnNumberAddTurn"
+		        	android:layout_width="300dp"
+		        	android:layout_height="50dp"
+		        	android:layout_below="@+id/txtCalendarAddTurn"
+		        	android:inputType="text"
+		        	android:maxLength="8"
+		        	android:textSize="35sp"
+		        	android:background="#DADADA" 
+		        	android:gravity="center"
+		        	android:paddingLeft="5dp"
+    				android:paddingRight="5dp"
+    				android:layout_marginBottom="10dp"
+    				android:layout_centerHorizontal="true"
+		        	android:hint="@string/hint_add_turn"/>
+		    		
+		       	<TextView
+		            android:id="@+id/btnAcceptAddTurn"
+		            android:layout_width="300dp"
+		            android:layout_height="50dp"
+		            android:text="Aceptar"
+		            android:background="#7FBA00" 
+		            android:layout_below="@+id/txtTurnNumberAddTurn"
+		            android:layout_centerVertical="true"
+		            android:textAlignment="center"
+		            android:textSize="25sp"
+		            android:gravity="center"
+		            android:layout_centerHorizontal="true"
+		            android:layout_marginBottom="20dp"
+		            android:textColor="#FFFFFF"
+		           />
+		       
+		   </RelativeLayout>
+            
+	    
+   
+   </ScrollView>
+

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<List>
+  	<Item>
+		<Id>1</Id>
+  		<Description>Calificanos en el Play Store!</Description>
+  		<Uri1>https://play.google.com/store/apps/details?id=com.uxor.turnos</Uri1>
+  		<Uri2></Uri2>
+  		<Logo>ic_about_google_play</Logo>
+  	</Item>
+	
+	<Item>
+		<Id>2</Id>
+  		<Description>Libre de Esperas en Facebook</Description>
+  		<Uri1>https://www.facebook.com/Libredeesperas</Uri1>
+  		<Uri2>https://www.facebook.com</Uri2>
+  		<Logo>ic_about_facebook</Logo>		
+  	</Item>
+  	
+	<Item>
+		<Id>3</Id>
+  		<Description>Terminos del Servicio</Description>
+  		<Uri1>http://www.libredeesperas.com/terms/</Uri1>
+  		<Uri2></Uri2>
+  		<Logo>ic_about_terms</Logo>
+  	</Item>
+	
+	<Item>
+		<Id>4</Id>
+  		<Description>Contactanos</Description>
+  		<Uri1>http://www.libredeesperas.com/contacts/</Uri1>
+  		<Uri2></Uri2>
+  		<Logo>ic_about_mail</Logo>
+  	</Item>
+</List>

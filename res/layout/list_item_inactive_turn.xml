@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" 
+  android:padding="10dp"
+  android:id="@+id/rlItemBranch">
+ 
+    <ImageView
+      android:id="@+id/imageBkgCompanyLogoLytItemInactiveTurn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="Company Logo"
+      android:src="@drawable/bkg_company_logo"
+      android:layout_marginRight="10dp"
+      android:layout_marginLeft="2dp"
+      android:layout_marginTop="2dp"/>
+    
+       <ImageView
+      android:id="@+id/imageCompanyLogoLytItemInactiveTurn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="Company Logo"
+      android:layout_alignParentTop="true"
+      android:src="@drawable/logo_mgp"/>
+    
+    
+	<TextView android:id="@+id/txtClientNameLytItemInactiveTurn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Banco Provincia"
+	    android:layout_toRightOf="@+id/imageBkgCompanyLogoLytItemInactiveTurn"
+	    android:textStyle="bold"
+	    android:textSize="25dp" />
+	 
+	<TextView android:id="@+id/txtBranchAddressLytItemInactiveTurn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/imageBkgCompanyLogoLytItemInactiveTurn"
+	    android:layout_below="@+id/txtClientNameLytItemInactiveTurn"
+	    android:text="Suc. Córdoba 1233"
+	    android:textStyle="normal"
+	    android:textColor="#878787"
+	    android:textSize="18dp" />
+	
+	<TextView android:id="@+id/txtBranchPhoneNumberLytItemInactiveTurn"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@+id/imageBkgCompanyLogoLytItemInactiveTurn"
+	    android:layout_below="@+id/txtBranchAddressLytItemInactiveTurn"
+	    android:text="473-2211/21 (int 210)"
+	    android:textStyle="normal"
+	    android:textColor="#878787"
+	    android:textSize="18dp" />
+	
+	<TextView android:id="@+id/txtTurnDateLytItemInactiveTurn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:text="18/01/2014"
+	    android:textStyle="normal"
+	    android:textColor="#545454"
+	    android:layout_marginTop="8dp"
+	    android:textSize="15dp" />
+	
+	<TextView android:id="@+id/txtTurnHourLytItemInactiveTurn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/txtTurnDateLytItemInactiveTurn"
+	    android:text="9:30"
+	    android:textStyle="normal"
+	    android:textColor="#606060"
+	    android:textSize="25dp" />
+	
+	
+	<TextView android:id="@+id/txtServiceTypeDescLytItemInactiveTurn"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentRight="true"
+	    android:layout_below="@+id/txtTurnHourLytItemInactiveTurn"
+	    android:text="Créditos y Tarjetas"
+	    android:textStyle="normal"
+	    android:textColor="#5593BB"
+	    android:textSize="15dp" />
+
+ 
+</RelativeLayout>
+

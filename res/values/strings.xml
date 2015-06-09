@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Libre de Esperas</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_updateConfigurationData">Actualizar Datos</string>
+    <string name="action_help">Ayuda</string>
+    <string name="action_loadData">Cargar Datos</string>
+    <string name="action_regGCM">Registro GCM</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_add">Agregar</string>
+    <string name="action_del">Eliminar</string>
+    <string name="action_accept">Aceptar</string>
+    <string name="action_refresh">Actualizar</string>  
+    <string name="alert_no_connection">Alerta: No Conexión</string>     
+    <string name="fragment1">Mis Turnos</string>
+    <string name="fragment2">Agregar Turno</string>
+    <string name="fragment3">Opción Menu: Cargar por código QR</string>
+    <string name="fragment_new_turn">Nuevo Turno</string>
+    <string name="drawer_open">Menú Abierto</string>
+    <string name="drawer_close">Menú Cerrado</string>
+    <string name="title_activity_detalle_turno">Detalle del Turno</string>
+    <string name="title_activity_supplier_list">Entidades</string>
+    <string name="title_activity_add_turn">Agregar Turno</string>
+    <string name="title_activity_registrar_gcm">Registrar Usuario</string>
+    <string name="title_activity_one_turn">Mis Turnos</string>
+    <string name="title_activity_configuration">Configuración</string>
+    <string name="title_activity_about_us">Acerca de...</string>
+    <string name="lblAceptar">Aceptar</string>
+    <string name="lblRegistrar">Registrar</string>
+    <string name="lblNombreUsuario">Nombre de Usuario:</string>
+    <string name="hintCboService">Seleccione un servicio...</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="hintCboTown">Seleccione una ciudad...</string>
+    <string name="lblTown">Ciudades</string>
+    <string name="selectdate">Seleccione una fecha</string>
+    <string name="pref_user_settings">Configuraciones</string>
+    <string name="pref_user_name">Nombre de usuario</string>
+    <string name="pref_user_name_summary">Ingrese un nombre de usuario</string>
+    <string name="pref_user_city">Ciudad</string>
+    <string name="pref_user_city_summary">Ingrese su ciudad actual</string>
+    <string name="pref_title_conf_data">Actualizaciones</string>
+    <string name="pref_update_conf_data">Actualizacion de Datos</string>
+    <string name="pref_update_conf_data_desc">Actualiza los servicios disponibles por zona</string>
+    <string name="branches_by_town">En mi ciudad</string>
+    <string name="branches_by_country">En el resto del país</string>
+    <string name="hint_add_turn">Ingrese su turno</string>
+    <string name="hint_help_add_turn">Texto explicativo de dos líneas de como agregar un turno...</string>
+    <string name="create_new_user">Creación de nuevo usuario</string>
+    <string name="help_user_registration">Ingresá tu nombre de Pila</string>
+	<string name="img_user_registration_description">Registración</string>
+	<string name="lblCurrentMonth">Este Mes</string>
+	<string name="lblOthersMonth">Anteriores</string>
+	<string name="inactiveTurnsFragment">Historicos</string>
+	<string name="oneTurnFragment">Mi Turno</string>
+	<string name="activityAboutUs">Acerca de...</string>
+	<string name="activityConfiguration">Configuración</string>
+	<string name="alertNoConnectionTitle">No hay conexión en el movil</string>
+	<string name="alertNoConnectionMessage">Los datos podrían estar desactualizados.</string>
+	<string name="restoringConnection">Restableciendo la conexión...</string>
+	
+	
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:paddingTop="15dp"
+  android:paddingLeft="15dp"
+  android:paddingRight="15dp"
+  >
+ 
+    <ImageView
+      android:id="@+id/logoMenuItem"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="Menu Logo"
+      android:src="@drawable/ic_navigation_new"
+	  android:layout_marginRight="10dp"
+      android:layout_marginLeft="2dp"
+      android:paddingTop="5dp"
+/>
+    
+	<TextView android:id="@+id/LblMenuTurnosNuevos"
+	    android:layout_width="180dp"
+	    android:layout_height="wrap_content"
+	    android:textStyle="bold"
+	    android:textColor="#000"
+	    android:textSize="25sp"
+	   	android:layout_toRightOf="@+id/logoMenuItem"
+	    android:text="UserName"
+	    android:paddingLeft="7dp"
+    />
+	
+	<TextView android:id="@+id/LblLocationUser"
+	    android:layout_width="180dp"
+	    android:layout_height="wrap_content"
+	    android:textStyle="bold"
+	    android:textColor="#000"
+	    android:textSize="18sp"
+	    android:layout_toRightOf="@+id/logoMenuItem"
+	   	android:layout_below="@+id/LblMenuTurnosNuevos"
+	    android:text="Mar del plata"
+	    android:paddingLeft="7dp"
+    />
+     
+     <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="1dp"
+		    android:background="#E0E0E0"
+		    android:layout_below="@+id/LblLocationUser"
+		    android:layout_marginTop="20sp"
+		    android:layout_marginLeft="10sp"
+		    android:layout_marginRight="10sp"/>
+ 
+</RelativeLayout>

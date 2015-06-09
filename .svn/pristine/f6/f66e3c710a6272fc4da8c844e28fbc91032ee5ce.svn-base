@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:uxor="http://schemas.android.com/apk/res-auto">
+
+     <item
+        android:id="@+id/alert_no_connection"
+        android:orderInCategory="100"
+        uxor:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_ico_alert"
+        android:title="@string/alert_no_connection"/>
+     
+     <item
+        android:id="@+id/action_del"
+        android:orderInCategory="100"
+        uxor:showAsAction="ifRoom" 
+        android:icon="@drawable/ic_action_delete"
+        android:title="@string/action_del"/>
+</menu>

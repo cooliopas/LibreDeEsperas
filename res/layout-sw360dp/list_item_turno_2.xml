@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/turn_list_background">
+
+ <TableRow android:padding="5dp">
+     
+     <FrameLayout
+   		android:layout_width="match_parent"
+    	android:layout_height="match_parent"> 
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBottom="@+id/textView4"
+	        android:layout_alignParentLeft="true"
+	        android:contentDescription="Banco Río"
+	        android:src="@drawable/logo_rio" />
+
+	</FrameLayout>
+    
+        
+    <LinearLayout android:orientation="vertical" 
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="140dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignTop="@+id/textView3"
+	        android:layout_toRightOf="@+id/imageView1"
+	        android:text="Suc. Córdoba 1233"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textColor="#114791"
+	        android:textSize="15sp" 
+	        android:paddingLeft="3dp"/>
+	
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Medium Text"
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	        android:textColor="#FFFFFF"
+	        android:textSize="15sp" 
+	        android:paddingLeft="3dp"/>  
+    </LinearLayout> 
+    
+    
+    <LinearLayout android:orientation="vertical" android:gravity="right"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent">>
+            
+        
+        <TextView
+	        android:id="@+id/textView3"
+	         android:layout_width="75dp"
+	        android:layout_height="wrap_content"
+	        android:text="25 minus"
+	        android:textColor="#FA0000" 
+	        android:gravity="right"/>
+	        
+    </LinearLayout>
+    
+     <LinearLayout android:orientation="vertical" android:gravity="right"
+         android:layout_width="match_parent"
+    	android:layout_height="match_parent">>
+            
+        <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/cuadrado_rojo"
+	        android:text="25"
+	        android:textAlignment="center"
+	        android:textColor="#FFFFFF"
+	        android:textSize="15sp" 
+	        android:gravity="center"
+	        android:layout_gravity="right"/>
+        
+	     <TextView 
+	        android:id="@+id/textView5"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="AF123"
+	        android:textColor="#FFFFFF"
+	        android:textSize="20sp" 
+	        android:layout_gravity="right"/>
+	     
+	    
+    </LinearLayout>
+    
+    
+    
+    
+</TableRow>
+
+
+
+</TableLayout>

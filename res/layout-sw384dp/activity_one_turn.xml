@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F1F1F1"
+    android:padding="0dp">
+
+	    <RelativeLayout android:id="@+id/rlOneTurn_1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_marginTop="30sp"
+	        android:layout_marginBottom="30sp"
+	        android:background="@drawable/circle_blue_one_turn"
+	 		android:layout_gravity="center">
+	        
+	        <TextView
+	             android:id="@+id/txtCloserOneTurn"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_alignParentTop="true"
+	             android:layout_centerHorizontal="true"
+	             android:layout_marginTop="33dp"
+	             android:text="Faltan"
+	             android:textAlignment="center"
+	             android:textSize="30sp"/>
+	        
+	         <TextView
+	             android:id="@+id/txtTurnBeforeOneTurn"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_centerHorizontal="true"
+	             android:layout_marginTop="50dp"
+	             android:text="8"
+	             android:textAlignment="center"
+	             android:textSize="100sp" />
+	
+	         <ImageView
+	            android:id="@+id/imgPeopleOneTurn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="Banco Río"
+	            android:src="@drawable/ic_action_person"
+	            android:layout_marginTop="160sp"
+	            android:layout_marginLeft="75sp"/>
+	         
+	         <TextView
+		        android:id="@+id/txtPeopleOneTurn"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_toRightOf="@+id/imgPeopleOneTurn"
+		        android:layout_centerHorizontal="true"
+		        android:text="personas"
+		        android:layout_marginTop="165sp"
+		        android:textSize="20sp"/>
+	         
+	         <TextView
+	             android:id="@+id/txtWaitingTimeOneTurn"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:layout_marginLeft="248dp"
+	             android:layout_marginTop="238dp"
+	             android:includeFontPadding="false"
+	             android:text="25&apos;"
+	             android:textAlignment="center"
+	             android:textColor="#FFFFFF"
+	             android:textSize="30sp" />
+	         
+	         <TextView 
+		        android:id="@+id/txtAproxOneTurn"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="aprox"
+		        android:textSize="15sp"
+		        android:textColor="#FFFFFF" 
+		        android:layout_marginLeft="248dp"
+		        android:layout_marginTop="270dp"
+		        android:includeFontPadding="false"/>
+	         
+	           <TextView
+	            android:id="@+id/txtMyTurnOneTurn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="Mi Turno" 
+	            android:textSize="15sp"
+	            android:textColor="#1E8BD0"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="205dp"/>
+	           
+	           <TextView
+	               android:id="@+id/txtTurnNumberOneTurn"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_centerHorizontal="true"
+	               android:layout_marginTop="220dp"
+	               android:text="A145"
+	               android:textColor="#1E8BD0"
+	               android:textSize="40sp" 
+	               android:padding="0dp"/>
+	         
+		</RelativeLayout>
+		
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" 
+	        android:background="#DDDDDD">
+	 
+	    	<TextView android:id="@+id/txtServiceTypeDescOneTurn"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="Créditos Hipotecarios"
+	        android:textSize="25sp"
+	        android:textColor="#555555"
+	        android:padding="10dp"
+	        android:gravity="center_horizontal"/>
+	 
+		</LinearLayout>
+	
+	    <RelativeLayout android:id="@+id/rlOneTurn_2"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:background="#9CC4DD">
+	        
+	         <ImageView
+	            android:id="@+id/imgLogoClientOneTurn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:contentDescription="Banco Río"
+	            android:src="@drawable/logo_claro"
+	            android:layout_marginTop="15sp"
+	            android:layout_marginLeft="40sp"/>
+	         
+	         <TextView
+	            android:id="@+id/txtClientNameOneTurn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/imgLogoClientOneTurn"
+	            android:text="Banco Nación" 
+	            android:textSize="24sp"
+	            android:textColor="#FFFFFF"
+	            android:layout_marginTop="10sp"
+	            android:layout_marginLeft="20sp"/>
+	         
+	         <TextView
+	            android:id="@+id/txtBranchDescOneTurn"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@+id/imgLogoClientOneTurn"
+	            android:layout_below="@+id/txtClientNameOneTurn"
+	            android:text="Suc. Córdoba 1233" 
+	            android:textSize="20sp"
+	            android:textColor="#1E8BD0"
+	            android:layout_marginLeft="20sp"/>
+	         
+		</RelativeLayout>
+	
+</LinearLayout>
+
+</ScrollView>

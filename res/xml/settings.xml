@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ 
+         
+    <PreferenceCategory android:title="@string/pref_user_settings" >
+        <EditTextPreference
+                android:title="@string/pref_user_name"
+                android:summary="@string/pref_user_name_summary"
+                android:key="user"
+                android:enabled="false" />
+ 
+        <ListPreference
+            android:key="userTownId"
+            android:summary="@string/pref_user_city_summary"
+            android:title="@string/pref_user_city" 
+            android:defaultValue="1"/>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="@string/pref_title_conf_data" >
+    
+    <Preference android:title="@string/pref_update_conf_data"
+                android:key="button"
+                android:summary="@string/pref_update_conf_data_desc"/>
+  	
+  	</PreferenceCategory>
+</PreferenceScreen>

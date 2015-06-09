@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Menu>
+  	<Item>
+		<Id>1</Id>
+  		<Description>UserName</Description>
+  		<Style>USER_INFO</Style>
+  		<Logo>ic_launcher</Logo>
+  	</Item>
+	<Item>
+		<Id>2</Id>
+  		<Description>Agregar Turno</Description>
+  		<Style>NORMAL_ITEM</Style>
+  		<Logo>ic_navigation_new</Logo>
+  		
+  	</Item>
+	<Item>
+		<Id>3</Id>
+  		<Description>Mis Turnos</Description>
+  		<Style>NORMAL_ITEM</Style>
+  		<Logo>ic_navigation_search</Logo>
+  	</Item>
+	<Item>
+		<Id>4</Id>
+  		<Description>Historicos</Description>
+		<Style>NORMAL_ITEM</Style>
+  		<Logo>ic_navigation_time</Logo>
+  	</Item>
+	<Item>
+		<Id>5</Id>
+  		<Description>Configuraciones</Description>
+  		<Style>NORMAL_ITEM</Style>
+  		<Logo>ic_navigation_settings</Logo>
+  	</Item>
+	<Item>
+		<Id>6</Id>
+  		<Description>Acerca de...</Description>
+  		<Style>DES_ITEM</Style>
+  		<Logo>ic_navigation_about</Logo>
+  	</Item>
+</Menu>

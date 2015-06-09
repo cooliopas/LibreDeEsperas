@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#F4F4F4">
+    
+    
+    <RelativeLayout android:id="@+id/rlTurnDetail_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5sp">
+ 
+        
+        <ImageView
+            android:id="@+id/imgLogoClientTurnDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Banco Río"
+            android:src="@drawable/logo_claro"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+	     
+        <TextView
+            android:id="@+id/txtClientNameTurnDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgLogoClientTurnDetail"
+            android:text="Banco Nación" 
+            android:textSize="25sp"
+            android:textColor="#555555"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="5dp"/>
+        
+        
+        <TextView
+            android:id="@+id/txtBranchAddressTurnDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgLogoClientTurnDetail"
+            android:layout_below="@+id/txtClientNameTurnDetail"
+            android:text="Suc. Córdoba 1233" 
+            android:textSize="20dp"
+            android:textColor="#888888"
+            android:layout_marginLeft="7dp"/>
+        
+        <TextView
+            android:id="@+id/txtBranchPhoneNumberTurnDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgLogoClientTurnDetail"
+            android:layout_below="@+id/txtBranchAddressTurnDetail"
+            android:text="452-6698 (Int. 34)" 
+            android:textSize="20sp"
+            android:textColor="#878787"
+            android:layout_marginLeft="7dp"/>
+        
+        
+        <TextView
+            android:id="@+id/txtServiceTypeDescTurnDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtBranchPhoneNumberTurnDetail"
+            android:text="Prueba" 
+            android:textSize="25sp"
+            android:textColor="#1E8BD0"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"/>
+        
+        
+        <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#E0E0E0"
+		    android:layout_below="@+id/txtServiceTypeDescTurnDetail"
+		    android:layout_marginTop="10sp"
+		    android:layout_marginLeft="10sp"
+		    android:layout_marginRight="10sp"/>
+        
+        
+        <ImageView
+            android:id="@+id/imgPhoneCallTurnDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Call"
+            android:src="@drawable/btn_call"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"/>
+         
+	</RelativeLayout>
+	
+     <RelativeLayout android:id="@+id/rlTurnDetail_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10sp">
+        
+          <TextView
+	        android:id="@+id/txtTurnBeforeTurnDetail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/circle_blue"
+	        android:text="35"
+	        android:textAlignment="center"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:textColor="#FFFFFF"
+	        android:textSize="48sp" 
+	        android:gravity="center"/>
+         
+         <TextView 
+	        android:id="@+id/txtTurnNumberTurnDetail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/txtTurnBeforeTurnDetail"
+	        android:layout_marginTop="5sp"
+            android:layout_marginLeft="5sp"
+	        android:text="AF123"
+	        android:textColor="#222222"
+	        android:textSize="45sp" />
+        
+        <TextView 
+	        android:id="@+id/txtWaitingTimeTurnDetail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/txtTurnBeforeTurnDetail"
+            android:layout_below="@+id/txtTurnNumberTurnDetail"
+	        android:text="25' aprox."
+	        android:textSize="30sp"
+	        android:textColor="#777777" 
+	        android:layout_marginLeft="5sp"/>
+        
+        
+        <TextView 
+	        android:id="@+id/txtLabelStatusTurnDetail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20sp"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="10sp"
+	        android:text="Estado"
+	        android:width="80sp"
+	        android:textColor="#878787"
+	        android:textSize="15sp" 
+	        android:gravity="center_horizontal"/>
+        
+        
+        <TextView 
+	        android:id="@+id/txtStatusTurnDetail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+            android:layout_below="@+id/txtLabelStatusTurnDetail"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10sp"
+            android:background="#B5E76E"
+	        android:text="Activo"
+	        android:textColor="#FFFFFF"
+	        android:textSize="20sp"
+	        android:width="80sp"
+	        android:paddingTop="6sp"
+            android:paddingBottom="8sp"
+	        android:gravity="center"
+	        />
+        
+        
+        <View
+		    android:layout_width="fill_parent"
+		    android:layout_height="0.5dp"
+		    android:background="#E0E0E0"
+		    android:layout_below="@+id/txtTurnBeforeTurnDetail"
+		    android:layout_marginTop="20sp"
+		    android:layout_marginLeft="10sp"
+		    android:layout_marginRight="10sp"/>
+        
+        
+         
+    </RelativeLayout>     
+
+     
+     
+     <RelativeLayout android:id="@+id/rlTurnDetail_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10sp">
+          
+         
+         <ImageView
+            android:id="@+id/imgMessageTurnDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="Mensajes"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5sp"
+            android:src="@drawable/ic_ico_message_gray"
+            />
+         
+         
+          <TextView 
+	        android:id="@+id/txtAlertMessagesTurnDetail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@+id/imgMessageTurnDetail"
+	        android:text="Alerta y Mensajes"
+	        android:textColor="#777777"
+	        android:layout_marginLeft="10dp"
+	        android:textSize="25sp" />
+          
+          
+          <TextView 
+	        android:id="@+id/txtQtyMessagesTurnDetail"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:text="2"
+	        android:textColor="#FFFFFF"
+	        android:textSize="15sp" 
+	        android:gravity="center" 
+	        android:textAlignment="center"
+	        android:layout_marginRight="10dp"
+	        android:background="@drawable/ic_background_qty_messages"/>
+         
+     </RelativeLayout>
+    
+</LinearLayout>

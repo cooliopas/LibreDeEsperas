@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+        android:orientation="horizontal" 
+        android:layout_width="wrap_content"
+    	android:layout_height="wrap_content">
+
+     <FrameLayout
+   		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:layout_marginBottom="12dp">
+    	
+         <TextView
+	        android:id="@+id/txt_lt_cantidad_turnos"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/circle_blue"
+	        android:text="25"
+	        android:textAlignment="center"
+	        android:textColor="#FFFFFF"
+	        android:textSize="48sp" 
+	        android:gravity="center"
+	        />
+
+	</FrameLayout>
+            
+
+	<RelativeLayout android:id="@+id/rlInfoTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="5sp">
+ 
+        <TextView 
+	        android:id="@+id/txt_lt_nro_turno"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="AF123"
+	        android:textColor="#222222"
+	        android:textSize="45sp" 
+	        />
+        
+        <TextView
+	        android:id="@+id/txt_lt_tiempo_estimado_espera"
+	         android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:textColor="#777777"
+	        android:textSize="30sp" 
+	        android:layout_below="@+id/txt_lt_nro_turno"
+	        />
+        
+        <TextView
+		        android:id="@+id/txt_lt_tipo_servicio"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="Créditos Hipotecarios"
+		        android:textColor="#1F8DD2"
+		        android:textSize="15sp" 
+		        android:layout_below="@+id/txt_lt_tiempo_estimado_espera"/>
+	        
+		    
+	</RelativeLayout>        
+
+</LinearLayout>
+

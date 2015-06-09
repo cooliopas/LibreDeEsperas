@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uxor.turnos"
+    android:versionCode="15"
+    android:versionName="1.6.8" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- Keeps the processor from sleeping when a message is received. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <!-- Network State Permissions to detect Internet status -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <!-- Permission to vibrate -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <permission
+        android:name="com.uxor.turnos.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.uxor.turnos.permission.C2D_MESSAGE" />
+    
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+
+    <supports-screens android:smallScreens="true"
+                      android:normalScreens="true"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"
+                      android:anyDensity="true" />
+    
+    <application
+        android:name="com.uxor.turnos.util.Turnos"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Example">
+        <activity
+            android:name="com.uxor.turnos.view.SplashScreenActivity"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize"
+			android:theme="@android:style/Theme.Black.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.uxor.turnos.view.MainActivity"
+            android:label="@string/app_name" 
+            android:icon="@drawable/logo_white"
+            android:screenOrientation="portrait"
+			android:configChanges="keyboardHidden|orientation|screenSize">
+        </activity>
+        <activity
+            android:name="com.uxor.turnos.view.DetalleTurnoActivity"
+            android:label="@string/title_activity_detalle_turno"
+            android:screenOrientation="portrait" 
+           	android:icon="@drawable/logo_white">
+        </activity>
+        <activity
+            android:name="com.uxor.turnos.view.BranchListActivity"
+            android:label="@string/title_activity_supplier_list"
+            android:screenOrientation="portrait" 
+            android:icon="@drawable/logo_white">
+        </activity>
+        <activity
+            android:name="com.uxor.turnos.view.AddTurnActivity"
+            android:label="@string/title_activity_add_turn" 
+            android:windowSoftInputMode="stateUnchanged"
+            android:screenOrientation="portrait"
+           	android:icon="@drawable/logo_white">
+        </activity>
+        <activity
+            android:name="com.uxor.turnos.view.RegistrarGCMActivity"
+            android:label="@string/title_activity_registrar_gcm" 
+            android:screenOrientation="portrait"
+			android:icon="@drawable/logo_white">
+        </activity>
+        <activity
+            android:name="com.uxor.turnos.view.OneTurnActivity"
+            android:label="@string/title_activity_one_turn" 
+            android:screenOrientation="portrait"
+            android:icon="@drawable/logo_white">
+        </activity>
+        <activity
+            android:name="com.uxor.turnos.view.ConfigurationActivity"
+            android:label="@string/title_activity_configuration" 
+            android:screenOrientation="portrait"
+            android:icon="@drawable/logo_white">
+        </activity>
+       	<activity
+            android:name="com.uxor.turnos.view.AboutUsActivity"
+            android:label="@string/title_activity_about_us" 
+            android:screenOrientation="portrait"
+            android:icon="@drawable/logo_white">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <receiver
+            android:name="com.uxor.turnos.broadcast.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.uxor.turnos.broadcast" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.uxor.turnos.intent.GCMIntentService" />
+        
+        <receiver android:name="com.uxor.turnos.util.ConnectionCheckReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+    
+    
+
+</manifest>
